@@ -236,6 +236,7 @@ def visualize(sess, dcgan, config, option):
     make_gif(new_image_set, './' + config.sample_dir + '/test_gif_merged.gif', duration=8)
 
 
+# XXX: I think this isn't necessary if you pass mode='RGB' to imread
 def colorize(img):
     if img.ndim == 2:
         img = img.reshape(img.shape[0], img.shape[1], 1)

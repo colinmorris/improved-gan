@@ -1,0 +1,3 @@
+- mess with convert_imagenet_to_records to work with favicon data
+- replace read_and_decode_with_labels with read_and_decode in build_model.py
+- remove any code that uses the label data

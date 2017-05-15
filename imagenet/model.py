@@ -6,6 +6,7 @@ import tensorflow as tf
 from ops import *
 from utils import *
 
+# XXX: not used?
 filename = "/media/NAS_SHARED/imagenet/imagenet_train_128.tfrecords"
 
 class DCGAN(object):
